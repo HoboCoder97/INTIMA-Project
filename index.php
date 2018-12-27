@@ -39,24 +39,14 @@ include("auth.php");
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li>
-           <a href="dashboard.php">
+           <a href="NewFile.php">
               <i class="now-ui-icons design_app"></i>
-           <p>Dashboard</p>
+           <p>Create New File</p>
             </a>
             </li>
           
-          <li>
-            <a href="./icons.html">
-              <i class="now-ui-icons education_atom"></i>
-              <p>Icons</p>
-            </a>
-          </li>
-          <li>
-            <a href="./map.html">
-              <i class="now-ui-icons location_map-big"></i>
-              <p>Maps</p>
-            </a>
-          </li>
+
+       
           <li>
             <a href="./notifications.html">
               <i class="now-ui-icons ui-1_bell-53"></i>
@@ -72,13 +62,13 @@ include("auth.php");
           <li>
             <a href="./tables.html">
               <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table List</p>
+              <p>Previous Files</p>
             </a>
           </li>
           <li>
             <a href="./typography.html">
               <i class="now-ui-icons text_caps-small"></i>
-              <p>Typography</p>
+              <p>Completed Files</p>
             </a>
           </li>
           <li class="active-pro">
@@ -156,9 +146,13 @@ include("auth.php");
       </nav>
       <!-- End Navbar -->
       <div class="panel-header panel-header-lg">
-        <img src="./images/INTIlogo.jpg" >
+        <img src="./images/INTIlogo.jpg" style="width: 100%;" >
       </div>
-      
+      <div class="content">
+    <h5>Use toolbar on the left to access the functions</h5>
+          
+          <h6>Contact INTIMA Admin for any inquiries</h6>
+    </div>
       <footer class="footer">
         <div class="container">
           <nav>
