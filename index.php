@@ -38,6 +38,12 @@ include("auth.php");
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
+             <li>
+            <a href="index.php">
+              <i class="now-ui-icons users_single-02"></i>
+              <p>Home</p>
+            </a>
+          </li>
           <li>
            <a href="NewFile.php">
               <i class="now-ui-icons design_app"></i>
@@ -53,12 +59,7 @@ include("auth.php");
               <p>Notifications</p>
             </a>
           </li>
-          <li>
-            <a href="./user.html">
-              <i class="now-ui-icons users_single-02"></i>
-              <p>User Profile</p>
-            </a>
-          </li>
+         
           <li>
             <a href="./tables.html">
               <i class="now-ui-icons design_bullet-list-67"></i>
