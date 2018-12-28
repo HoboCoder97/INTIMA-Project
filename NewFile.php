@@ -41,36 +41,31 @@ include("auth.php");
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-            <li>
+            
+        <li>
             <a href="index.php">
               <i class="now-ui-icons users_single-02"></i>
               <p>Home</p>
             </a>
           </li>
-          <li>
-           <a href="NewFile.php">
-              <i class="now-ui-icons design_app"></i>
-           <p>Create New File</p>
-            </a>
-            </li>
           
 
        
           <li>
-            <a href="./notifications.html">
+            <a href="notifications.php">
               <i class="now-ui-icons ui-1_bell-53"></i>
               <p>Notifications</p>
             </a>
           </li>
           
           <li>
-            <a href="./tables.html">
+            <a href="previousfiles.php">
               <i class="now-ui-icons design_bullet-list-67"></i>
               <p>Previous Files</p>
             </a>
           </li>
           <li>
-            <a href="./typography.html">
+            <a href="completedfiles.php">
               <i class="now-ui-icons text_caps-small"></i>
               <p>Completed Files</p>
             </a>
@@ -86,6 +81,85 @@ include("auth.php");
     </div>
 <div class="main-panel">
     
+ <div class="row">
+          <div class="col-lg-4">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h4 class="card-title">Activity Proposal</h4>
+                <div class="dropdown">
+
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item text-danger" href="#">Remove Data</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+               <a href=activityproposal.php>
+  <img src="images/activityproposal.png" style="width:400px;height:300px;border:50;" >
+</a>
+              </div>
+              <div class="card-footer">
+                <div class="stats">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-4">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h4 class="card-title">Post Mortem Report</h4>
+                <div class="dropdown">
+
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item text-danger" href="#">Remove Data</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+               <a href=postmortem.php>
+  <img src="images/postmortem.png" style="width:400px;height:300px;border:50;" >
+</a>
+              </div>
+              <div class="card-footer">
+                <div class="stats">
+                 
+                </div>
+              </div>
+            </div>
+          </div><div class="col-lg-4">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h4 class="card-title">Project Proposal</h4>
+                <div class="dropdown">
+
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item text-danger" href="#">Remove Data</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+               <a href=projectproposal.php>
+  <img src="images/projectproposal.png" style="width:400px;height:300px;border:50;" >
+</a>
+              </div>
+              <div class="card-footer">
+                <div class="stats">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
     
 
