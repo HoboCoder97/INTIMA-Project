@@ -71,7 +71,7 @@ include("auth.php");
             </a>
           </li>
           <li class="active-pro">
-            <a href="./upgrade.html">
+            <a href="logout.php">
               <i class="now-ui-icons arrows-1_cloud-download-93"></i>
              <a href="logout.php">Logout</a>
             </a>
